@@ -11,13 +11,13 @@
 
 ```js
 var some = require('fj-some');
-some(elem => elem > 10,[2, 5, 8, 1, 4],null); // False.
+some(elem => elem > 10,[2, 5, 8, 1, 4]); // False.
 
 ```
 
 ##API
 ```
-cb -> array -> [thisArgs]
+cb -> array
 ```
 
 A curried function that expects:
@@ -25,5 +25,3 @@ A curried function that expects:
 * `cb` [required] : A callback function that receives: `currentValue`, `index` and `array`.
 
 * `array` [required]: The array on which the function is applied.
-
-* `thiArgs` [optional]: Execution context.
