@@ -1,6 +1,6 @@
 {
   "name": "fj-some",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "functional `some` for an array.",
   "main": "index.js",
   "scripts": {
